@@ -44,4 +44,4 @@ deploy-stage:
 
     # ensure WordPress and plugins have permissions on content/themes/plugin dirs
     - ssh -i $STAGE_ID_RSA -o StrictHostKeyChecking=no $STAGE_SERVER_USER@$STAGE_SERVER_IP "
-        chgrp -R www-data $WORDPRESS_SITE_DIR || true"
+        chgrp -R apache $WORDPRESS_SITE_DIR || true"
