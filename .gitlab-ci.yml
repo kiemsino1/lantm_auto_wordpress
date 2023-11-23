@@ -2,8 +2,8 @@ stages:
   - deploy-stage
 
 variables:
-  WORDPRESS_SITE_DIR: /var/www/html/blog
-  WORDPRESS_THEME_NAME: myBlog
+  WORDPRESS_SITE_DIR: /var/www/html/kadence
+  WORDPRESS_THEME_NAME: kadence
   WORDPRESS_PLUGINS: "ewww-image-optimizer google-sitemap-generator wp-sweep"
   NODE_BIN_PATH: /usr/bin/node
   COMPOSER_BIN_PATH: /usr/local/bin/composer
